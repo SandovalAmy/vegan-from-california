@@ -1,9 +1,12 @@
+/* global variables */
+
 :root {
-  --max-width: 1100px;
-  --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --color-neutral-light: #fff;
+  --color-neutral-dark: #000;
+  --color-theme-primary: #40513b;
+  --color-theme-secondary: #609966;
+  --color-theme-tertiary: #9dc08b;
+  --color-theme-quaternary: #edf1d6;
 }
 
 * {

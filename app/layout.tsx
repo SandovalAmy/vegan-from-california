@@ -1,5 +1,5 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Montserrat_Alternates, Urbanist } from 'next/font/google'
 import Navbar from './navbar'
 import Footer from './footer'
 
@@ -10,7 +10,9 @@ import Footer from './footer'
  *
  ***/
 
-const inter = Inter({ subsets: ['latin'] })
+const urbanist = Urbanist({
+  subsets: ['latin'],
+})
 
 export const metadata = {
   title: 'Vegan from California',
@@ -23,9 +25,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={urbanist.className}>
       <Navbar />
-      <main className={inter.className}>{children}</main>
+      <main>{children}</main>
       <Footer />
     </html>
   )

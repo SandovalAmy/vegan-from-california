@@ -1,4 +1,7 @@
 .container {
+  background-color: var(--color-theme-quaternary);
+  color: var(--color-theme-primary);
+  padding: 1em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -11,7 +14,7 @@
 
 .links {
   display: flex;
-  flex-direction: row;
+  flex-flow: row;
   justify-content: space-between;
   text-decoration: none;
   list-style: none;
