@@ -16,11 +16,14 @@
   display: flex;
   flex-flow: row;
   justify-content: space-between;
+  text-align: right;
   text-decoration: none;
   list-style: none;
   cursor: pointer;
 }
 
 .link {
-  padding-left: 2em;
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 2em;
 }
