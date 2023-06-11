@@ -66,6 +66,7 @@
   }
   .text {
     max-width: 450px;
+    font-size: 1.4em; /* note: doesn't account for additional text */
   }
 }
 
